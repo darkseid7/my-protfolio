@@ -1,15 +1,15 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
-import { media } from "../styled-components/Global";
+import { media } from "../../styled-components/Global";
 
-import { NavBar, Logo, Items } from "../styled-components/NavBar";
-import { ReactComponent as NavLogo } from "../assets/react.svg";
-import { ReactComponent as GitLogo } from "../assets/github.svg";
-import { ReactComponent as Linkedin } from "../assets/linkedin.svg";
-import { ReactComponent as Codepen } from "../assets/codepen.svg";
+import { NavBar, Logo, Items } from "../../styled-components/NavBar";
+import { ReactComponent as NavLogo } from "../../assets/react.svg";
+import { ReactComponent as GitLogo } from "../../assets/github.svg";
+import { ReactComponent as Linkedin } from "../../assets/linkedin.svg";
+import { ReactComponent as Codepen } from "../../assets/codepen.svg";
 
-import Item from "./Item";
+import Item from "./Item/Item";
 
 const StyledHeader = styled.header`
   width: 100%;
@@ -83,9 +83,9 @@ function Header() {
               </a>
             </motion.span>
           </motion.div>
-          <Item>Projects</Item>
-          <Item>About</Item>
-          <Item>Contact</Item>
+          <Item href="#About">About</Item>
+          <Item href="#Projects">Projects</Item>
+          <Item href="#Contact">Contact</Item>
         </Items>
       </NavBar>
     </StyledHeader>

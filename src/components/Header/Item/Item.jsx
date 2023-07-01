@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import { media } from "../styled-components/Global";
+import { media } from "../../../styled-components/Global";
 
 const StyledItem = styled(motion.a)`
   margin: 0 0.2rem;
@@ -9,7 +9,6 @@ const StyledItem = styled(motion.a)`
   cursor: pointer;
 
   ${media.phone} {
-    /* display: none; */
     padding: 0.75rem 0.5rem;
   }
 `;
@@ -28,9 +27,10 @@ const itemVariants = {
   },
 };
 
-const Item = ({ children }) => {
+const Item = ({ children, href }) => {
   return (
     <StyledItem
+      href={href}
       variants={itemVariants}
       whileHover="hover"
       initial="noHover"

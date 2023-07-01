@@ -1,8 +1,8 @@
-import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
 import { media } from "../../styled-components/Global";
+import ScrollReveal from "../../utils/ScrollReveal";
 
 const StyledCard = styled(motion.div)`
   max-width: 960px;
@@ -63,38 +63,37 @@ const StyledCard = styled(motion.div)`
 
 function Card() {
   return (
-    <StyledCard>
-      <motion.div
-        // whileHover={{ scale: 1.01 }}
-        className="card-container"
-      >
-        <h2>About me</h2>
-        <p>
-          I&apos;m Sergio — a Front-End Web Developer from Medellin, Colombia.
-        </p>
+    <ScrollReveal>
+      <StyledCard id="About">
+        <motion.div className="card-container">
+          <h2>About me</h2>
+          <p>
+            I&apos;m Sergio — a Front-End Web Developer from Medellin, Colombia.
+          </p>
 
-        <p>
-          I&apos;m an experienced frontend developer with a strong skill set in
-          HTML, CSS, and JavaScript. My focus is on creating visually appealing
-          and user-friendly web applications by combining technical expertise
-          with intuitive design principles.
-        </p>
-        <p>
-          I&apos;ve worked on diverse projects, collaborating with designers,
-          backend developers, and stakeholders to deliver high-quality
-          solutions. Attention to detail, code quality, and performance
-          optimization are priorities in my work, ensuring functional and
-          engaging user experiences.
-        </p>
-        <p>
-          As a lifelong learner, I stay updated on emerging frontend trends and
-          technologies, constantly expanding my skill set. I approach challenges
-          with a problem-solving mindset, providing innovative solutions.
-          I&apos;m excited to bring my expertise to your project and collaborate
-          on creating remarkable digital experiences.
-        </p>
-      </motion.div>
-    </StyledCard>
+          <p>
+            I&apos;m an experienced frontend developer with a strong skill set
+            in HTML, CSS, and JavaScript. My focus is on creating visually
+            appealing and user-friendly web applications by combining technical
+            expertise with intuitive design principles.
+          </p>
+          <p>
+            I&apos;ve worked on diverse projects, collaborating with designers,
+            backend developers, and stakeholders to deliver high-quality
+            solutions. Attention to detail, code quality, and performance
+            optimization are priorities in my work, ensuring functional and
+            engaging user experiences.
+          </p>
+          <p>
+            As a lifelong learner, I stay updated on emerging frontend trends
+            and technologies, constantly expanding my skill set. I approach
+            challenges with a problem-solving mindset, providing innovative
+            solutions. I&apos;m excited to bring my expertise to your project
+            and collaborate on creating remarkable digital experiences.
+          </p>
+        </motion.div>
+      </StyledCard>
+    </ScrollReveal>
   );
 }
 

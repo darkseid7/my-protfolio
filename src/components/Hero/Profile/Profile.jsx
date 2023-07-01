@@ -6,7 +6,7 @@ import { ReactComponent as GitLogo } from "../../../assets/github.svg";
 import { ReactComponent as Linkedin } from "../../../assets/linkedin.svg";
 import { ReactComponent as Codepen } from "../../../assets/codepen.svg";
 
-import Item from "../../Item";
+import Item from "../../Header/Item/Item";
 
 const StyledProfile = styled.div`
   max-width: 580px;

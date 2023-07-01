@@ -1,14 +1,12 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
-import ScrollReveal from "../utils/ScrollReveal";
-
-import Separator from "../components/Separator";
+import Separator from "../components/common/Separator";
 import Hero from "../components/Hero/Hero";
 import Card from "../components/Card/Card";
 import Skills from "../components/Skills/Skills";
-
 import Projects from "../components/Projects/Projects";
+import Contact from "../components/Contact/Contact";
 
 import { media } from "../styled-components/Global";
 
@@ -30,21 +28,15 @@ function Home() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
-        <ScrollReveal>
-          <Hero />
-        </ScrollReveal>
-        <ScrollReveal>
-          <Separator />
-          <Card />
-        </ScrollReveal>
-
+        <Hero />
+        <Separator />
+        <Card />
         <Separator />
         <Skills />
-
         <Separator />
-
         <Projects />
         <Separator />
+        <Contact />
       </StyledHome>
     </>
   );

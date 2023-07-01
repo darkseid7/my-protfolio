@@ -20,9 +20,6 @@ const StyledPicture = styled(motion.div)`
     width: 100%;
     object-fit: cover;
     border-image: linear-gradient(to right, #00cdac, #02aab0);
-    /* border-width: 2px; */
-    /* border-radius: 52px; */
-    /* border-style: solid; */
   }
 
   ${media.tablet} {

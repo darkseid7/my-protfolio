@@ -38,7 +38,7 @@ const StyledProjects = styled.section`
 
 const Projects = () => {
   return (
-    <StyledProjects>
+    <StyledProjects id="Projects">
       <h2>Projects i&apos;ve built</h2>
       <div className="card-container">
         {ProjectsObject.map((project, index) => (

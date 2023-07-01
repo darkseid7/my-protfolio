@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 
 import { media } from "../../styled-components/Global";
 
+import ScrollReveal from "../../utils/ScrollReveal";
+
 import Profile from "./Profile/Profile";
 import Picture from "./Picture/Picture";
 
@@ -24,10 +26,12 @@ const StyledHero = styled(motion.section)`
 
 function Hero() {
   return (
-    <StyledHero>
-      <Profile />
-      <Picture />
-    </StyledHero>
+    <ScrollReveal>
+      <StyledHero>
+        <Profile />
+        <Picture />
+      </StyledHero>
+    </ScrollReveal>
   );
 }
 
