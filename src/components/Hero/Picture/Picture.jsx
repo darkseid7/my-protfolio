@@ -79,7 +79,7 @@ function Picture() {
       key={isTablet}
     >
       <motion.img
-        // src={avatarImg}
+        src={avatarImg}
         // initial={{ y: -220, borderRadius: "50%" }}
         // animate={{ y: 0 }}
         // transition={{ duration: 3 }}

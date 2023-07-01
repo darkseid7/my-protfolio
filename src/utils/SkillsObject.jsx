@@ -52,7 +52,7 @@ export const ProjectsObject = [
   {
     name: "Planets Facts Size",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione et, aperiam qui, cumque unde, fugiat maiores earum eos quis impedit modi eum officia iure obcaecati libero in veritatis magni. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores nihil labore eum sed laborum, minima fugiat aliquam accusantium soluta dolore facere nemo neque itaque nesciunt cupiditate perferendis! Laboriosam, delectus praesentium.",
+      "Is a captivating website built with React, Styled Components, Vite, Framer Motion, and Anime.js. Explore the sizes of various planets in our solar system, from Mercury to Neptune, with engaging animations and smooth transitions. With a user-friendly interface, this website provides captivating images, concise descriptions, and fascinating facts about planetary dimensions. Immerse yourself in the beauty and scale of the planets and expand your knowledge of the cosmic wonders that surround us.",
     url: "https://planets-fact-size-website-d6ygsjmkv-darkseid7.vercel.app/",
     builtWith: [
       { svg: <Styledcomponents fill="#c76494" /> },
@@ -67,7 +67,7 @@ export const ProjectsObject = [
   {
     name: "Entertainment Web App",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione et, aperiam qui, cumque unde, fugiat maiores earum eos quis impedit modi eum officia iure obcaecati libero in veritatis magni. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores nihil labore eum sed laborum, minima fugiat aliquam accusantium soluta dolore facere nemo neque itaque nesciunt cupiditate perferendis! Laboriosam, delectus praesentium.",
+      "Is a dynamic website built with React, Vite, Framer Motion, Zustand, Styled Components, and Firebase. Discover a vast collection of TV series and movies with a user-friendly interface, featuring a search functionality for easy exploration. Take advantage of the seamless Firebase integration to log in to your account and personalize your viewing experience. With smooth animations and state management powered by Zustand, this app offers a delightful browsing experience. Immerse yourself in a world of entertainment, where you can access an extensive library of content and make the most of its intuitive features.",
     url: "https://entertainment-web-app-react-alpha.vercel.app/",
     builtWith: [
       { svg: <Styledcomponents fill="#c76494" /> },
@@ -83,13 +83,12 @@ export const ProjectsObject = [
   {
     name: "The Rick and Morty App",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione et, aperiam qui, cumque unde, fugiat maiores earum eos quis impedit modi eum officia iure obcaecati libero in veritatis magni. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores nihil labore eum sed laborum, minima fugiat aliquam accusantium soluta dolore facere nemo neque itaque nesciunt cupiditate perferendis! Laboriosam, delectus praesentium.",
+      "Is an immersive website built with React, Vite, Anime.js, and Styled Components. Explore the world of 'Rick and Morty' with a comprehensive list of characters, a convenient search feature, and an infinity scroll for effortless browsing. Powered by Anime.js, the app brings these beloved characters to life with captivating animations.",
     url: "https://darkseid7.github.io/rick-and-morty-react-app/",
     builtWith: [
       { svg: <Styledcomponents fill="#c76494" /> },
       { svg: <Vite /> },
       { svg: <Js /> },
-      { svg: <Zustand /> },
       { svg: <ReactIcon /> },
     ],
     preview: rickAndMortyApp,
@@ -98,7 +97,7 @@ export const ProjectsObject = [
   {
     name: "Rest Country Api",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione et, aperiam qui, cumque unde, fugiat maiores earum eos quis impedit modi eum officia iure obcaecati libero in veritatis magni. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores nihil labore eum sed laborum, minima fugiat aliquam accusantium soluta dolore facere nemo neque itaque nesciunt cupiditate perferendis! Laboriosam, delectus praesentium.",
+      "is a feature-rich website developed using React, Vite, Styled Components, and the useContext API. Discover a comprehensive list of countries, complete with a convenient search feature and continent filtering. Selecting a country reveals detailed information about it. The app also incorporates the useContext API to seamlessly switch between light and dark modes, enhancing the visual experience. With its intuitive design and efficient use of technologies, 'Rest Country API' offers a seamless browsing experience and an in-depth exploration of countries worldwide.",
     url: "https://darkseid7.github.io/rick-and-morty-react-app/",
     builtWith: [
       { svg: <Styledcomponents fill="#c76494" /> },
@@ -113,7 +112,7 @@ export const ProjectsObject = [
   {
     name: "Chec",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione et, aperiam qui, cumque unde, fugiat maiores earum eos quis impedit modi eum officia iure obcaecati libero in veritatis magni. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores nihil labore eum sed laborum, minima fugiat aliquam accusantium soluta dolore facere nemo neque itaque nesciunt cupiditate perferendis! Laboriosam, delectus praesentium.",
+      "As the leader of the CHEC project, I spearheaded the development of a robust and user-friendly interface using HTML, CSS, and JavaScript. With a strong focus on accessibility and usability, the project prioritized creating an inclusive experience for all users. The meticulously designed interface ensures that users can easily navigate and interact with the website, regardless of their abilities. By implementing accessibility best practices, the project adheres to industry standards, making it accessible to a wide range of users. The user-centric design and seamless usability showcase our commitment to delivering a high-quality and satisfying experience. ",
     url: "https://www.chec.com.co/",
     builtWith: [{ svg: <Js /> }, { svg: <Html /> }, { svg: <Sass /> }],
     preview: chec,
