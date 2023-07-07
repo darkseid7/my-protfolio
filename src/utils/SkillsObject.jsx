@@ -10,12 +10,14 @@ import { ReactComponent as Npm } from "../assets/npm.svg";
 import { ReactComponent as Styledcomponents } from "../assets/styledcomponents.svg";
 import { ReactComponent as Framer } from "../assets/framer.svg";
 import { ReactComponent as Zustand } from "../assets/zustand.svg";
+import { ReactComponent as Threejs } from "../assets/threejs.svg";
 
 import planetsFacts from "../assets/planets-facts.png";
 import entertainmentWeb from "../assets/entertainment-web-app.png";
 import restCountryApi from "../assets/rest-country-api.png";
 import rickAndMortyApp from "../assets/rick-and-morty-app.png";
 import chec from "../assets/chec.png";
+import ceramicCube from "../assets/ceramic-cube.png";
 
 export const SkillsObject = [
   { name: "HTML", svg: <Html /> },
@@ -46,9 +48,28 @@ export const SkillsObject = [
     svg: <Zustand />,
     url: "https://docs.pmnd.rs/zustand/getting-started/introduction",
   },
+  {
+    name: "Threejs",
+    svg: <Threejs />,
+    url: "https://threejs.org/",
+  },
 ];
 
 export const ProjectsObject = [
+  {
+    name: "Ceramic Cube Threejs Project",
+    description:
+      "The project I developed using React and React Three Fiber involves creating an interactive cube that reflects light emitted from rotating light bars. Implemented with React Three Fiber, a library based on Three.js, the project allows users to observe the cube as it reflects light from the rotating bars, resulting in visually captivating effects of lights and shadows. It showcases the capabilities of React Three Fiber for 3D rendering and offers an engaging interactive experience for users.",
+    url: "https://ceramic-cube-threejs.vercel.app/",
+    builtWith: [
+      { svg: <Vite /> },
+      { svg: <Js /> },
+      { svg: <ReactIcon /> },
+      { svg: <Threejs /> },
+    ],
+    preview: ceramicCube,
+    created: "Jun 2023",
+  },
   {
     name: "Planets Facts Size",
     description:
