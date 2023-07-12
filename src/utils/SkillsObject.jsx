@@ -11,6 +11,7 @@ import { ReactComponent as Styledcomponents } from "../assets/styledcomponents.s
 import { ReactComponent as Framer } from "../assets/framer.svg";
 import { ReactComponent as Zustand } from "../assets/zustand.svg";
 import { ReactComponent as Threejs } from "../assets/threejs.svg";
+import { ReactComponent as Redux } from "../assets/redux.svg";
 
 import planetsFacts from "../assets/planets-facts.png";
 import entertainmentWeb from "../assets/entertainment-web-app.png";
@@ -52,6 +53,11 @@ export const SkillsObject = [
     name: "Threejs",
     svg: <Threejs />,
     url: "https://threejs.org/",
+  },
+  {
+    name: "Redux Toolkit",
+    svg: <Redux />,
+    url: "https://redux.js.org/",
   },
 ];
 
