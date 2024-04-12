@@ -12,6 +12,8 @@ import { ReactComponent as Framer } from "../assets/framer.svg";
 import { ReactComponent as Zustand } from "../assets/zustand.svg";
 import { ReactComponent as Threejs } from "../assets/threejs.svg";
 import { ReactComponent as Redux } from "../assets/redux.svg";
+import { ReactComponent as Svelte } from "../assets/svelte.svg";
+import { ReactComponent as Supabase } from "../assets/supabase.svg";
 
 import planetsFacts from "../assets/planets-facts.png";
 import entertainmentWeb from "../assets/entertainment-web-app.png";
@@ -19,6 +21,7 @@ import restCountryApi from "../assets/rest-country-api.png";
 import rickAndMortyApp from "../assets/rick-and-morty-app.png";
 import chec from "../assets/chec.png";
 import ceramicCube from "../assets/ceramic-cube.png";
+import masuStrorefront from "../assets/masu-storefront.png";
 
 export const SkillsObject = [
   { name: "HTML", svg: <Html /> },
@@ -59,9 +62,33 @@ export const SkillsObject = [
     svg: <Redux />,
     url: "https://redux.js.org/",
   },
+  {
+    name: "Sveltekit",
+    svg: <Svelte />,
+    url: "https://kit.svelte.dev/",
+  },
+  {
+    name: "Supabase",
+    svg: <Supabase />,
+    url: "https://supabase.com/",
+  },
 ];
 
 export const ProjectsObject = [
+  {
+    name: "MASU Storefront",
+    description:
+      "The project MASU Storefront I developed using Sveltekit and Supabase involves creating an e-commerce storefront for MASU. The website features a user-friendly interface that allows customers to browse products, add them to their cart, and complete their purchase. With seamless integration of Supabase for data storage and authentication, the website offers a secure and efficient shopping experience. The project showcases the capabilities of Sveltekit for building dynamic web applications and demonstrates the power of Supabase for backend development. Explore the MASU Storefront and discover a world of stylish and innovative products.",
+    url: "https://www.masu.mx/",
+    builtWith: [
+      { svg: <Vite /> },
+      { svg: <Js /> },
+      { svg: <Supabase /> },
+      { svg: <Svelte /> },
+    ],
+    preview: masuStrorefront,
+    created: "Nov 2023",
+  },
   {
     name: "Ceramic Cube Threejs Project",
     description:
