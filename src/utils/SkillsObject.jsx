@@ -14,6 +14,7 @@ import { ReactComponent as Threejs } from "../assets/threejs.svg";
 import { ReactComponent as Redux } from "../assets/redux.svg";
 import { ReactComponent as Svelte } from "../assets/svelte.svg";
 import { ReactComponent as Supabase } from "../assets/supabase.svg";
+import { ReactComponent as Astro } from "../assets/astro.svg";
 
 import planetsFacts from "../assets/planets-facts.png";
 import entertainmentWeb from "../assets/entertainment-web-app.png";
@@ -27,49 +28,59 @@ export const SkillsObject = [
   { name: "HTML", svg: <Html /> },
   { name: "CSS", svg: <Css /> },
   { name: "JavaScript", svg: <Js /> },
-  { name: "Sass", svg: <Sass /> },
+  // { name: "Sass", svg: <Sass /> },
   {
     name: "Tailwind",
     svg: <Tailwind />,
     url: "https://tailwindcss.com/",
   },
   { name: "React", svg: <ReactIcon />, url: "https://react.dev/" },
-  { name: "Vite", svg: <Vite />, url: "https://vitejs.dev/" },
-  { name: "Webpack", svg: <Webpack />, url: "https://webpack.js.org/" },
-  { name: "NPM", svg: <Npm />, url: "https://www.npmjs.com/" },
-  {
-    name: "Styled-components",
-    svg: <Styledcomponents />,
-    url: "https://styled-components.com/",
-  },
-  {
-    name: "Framer-motion",
-    svg: <Framer />,
-    url: "https://www.framer.com/motion/",
-  },
-  {
-    name: "Zustand",
-    svg: <Zustand />,
-    url: "https://docs.pmnd.rs/zustand/getting-started/introduction",
-  },
+  // { name: "Vite", svg: <Vite />, url: "https://vitejs.dev/" },
+  // { name: "Webpack", svg: <Webpack />, url: "https://webpack.js.org/" },
+  // { name: "NPM", svg: <Npm />, url: "https://www.npmjs.com/" },
+  // {
+  //   name: "Styled-components",
+  //   svg: <Styledcomponents />,
+  //   url: "https://styled-components.com/",
+  // },
+  // {
+  //   name: "Framer-motion",
+  //   svg: <Framer />,
+  //   url: "https://www.framer.com/motion/",
+  // },
+  // {
+  //   name: "Zustand",
+  //   svg: <Zustand />,
+  //   url: "https://docs.pmnd.rs/zustand/getting-started/introduction",
+  // },
   {
     name: "Threejs",
     svg: <Threejs />,
     url: "https://threejs.org/",
   },
+  // {
+  //   name: "Redux Toolkit",
+  //   svg: <Redux />,
+  //   url: "https://redux.js.org/",
+  // },
   {
-    name: "Redux Toolkit",
-    svg: <Redux />,
-    url: "https://redux.js.org/",
-  },
-  {
-    name: "Sveltekit",
+    name: "Svelte/kit",
     svg: <Svelte />,
     url: "https://kit.svelte.dev/",
   },
+  // {
+  //   name: "Supabase",
+  //   svg: <Supabase />,
+  //   url: "https://supabase.com/",
+  // },
   {
-    name: "Supabase",
-    svg: <Supabase />,
+    name: "NextJs",
+    svg: "",
+    url: "https://supabase.com/",
+  },
+  {
+    name: "Astro",
+    svg: <Astro />,
     url: "https://supabase.com/",
   },
 ];
